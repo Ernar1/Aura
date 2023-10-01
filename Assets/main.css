@@ -1,0 +1,276 @@
+
+body{
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 15px;
+    line-height: 1.6;
+    color: #fff;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+/*Header*/
+
+.header_content{
+    background-color: #202020;
+    max-width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    height: 44px;
+}
+
+.header_nav{
+    padding: 0 1em;
+    background-color: #202020;
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 2em;
+    justify-items: start;
+    -ms-grid-columns: auto 1fr auto;
+    grid-template-columns: auto 1fr auto;
+    text-transform: uppercase;
+    color: #fff;
+    height: 54px;
+}
+
+.header_back{
+    display: grid;
+    -ms-grid-columns: auto auto;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-items: start;
+    font-weight: 600;
+    border-right: 1px solid #bdbdbd;
+    width: 8em;
+}
+
+
+
+
+.header_info{
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto auto;
+    grid-gap: 2em;
+}
+
+*, ::after, ::before{
+    box-sizing: border-box;
+}
+
+.header1{
+    height: 44px;
+}
+
+.header[header1]{
+    padding: 0 1em;
+    background-color: #202020;
+    display: grid;
+    grid-gap: 2em;
+    justify-items: start;
+    -ms-grid-columns: auto 1fr auto;
+    grid-template-columns: auto 1fr auto;
+    text-transform: uppercase;
+    color: #fff;
+    height: 54px;
+}
+
+.header_dashboard{
+    display: grid;
+    align-items: center;
+    padding: 4px 1.6em;
+    grid-template-columns: auto auto auto auto;
+}
+
+.header_dashboard_block_cell{
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto auto auto;
+    padding: 2px 1.6em;
+}
+.header_dashboard_block_cell svg{
+    fill: #fff;
+}
+.header_dashboard_block_inserted_icon{
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto auto auto;
+    border-left: 1px solid #4f4f4f;
+    padding: 2px 1.6em;
+}
+.header_dashboard_block_inserted_icon svg{
+    fill: #fff;
+}
+.header_dashboard_block_x_icon{
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto auto auto;
+    border-left: 1px solid #4f4f4f;
+    padding: 2px 1.6em;
+}
+.header_dashboard_block_x_icon svg{
+    fill: #fff;
+}
+.header_dashboard_icon{
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto auto auto;
+    border-left: 1px solid #4f4f4f;
+    padding: 2px 1.6em;
+}
+.header_dashboard_icon svg{
+    fill: #fff;
+}
+
+/* Recept header */
+
+.main_recept{
+    grid-template-columns: 32em 1fr 12em;
+    grid-template-rows: calc(100vh - 44px);
+    margin-top: 9px;   
+    width: 575px;
+    border-right: 1px solid #bdbdbd;
+    top: auto;
+    height: 910px;
+}
+
+.recept_container{
+    display: grid;
+    grid-template-rows: auto 1fr;
+    color: #333;
+    
+}
+
+
+.recept_header{
+    display: grid;
+    grid-template-columns: 1fr 4em 7em 4em;
+    grid-gap: 1em;
+    text-align: left;
+    line-height: 3em;
+    padding: 0 1em;
+    color: #888;
+}
+
+.recept_header{
+    grid-gap: 0.4em;
+}
+
+
+.recept_footer_in_amount{
+    margin-top: 675px;
+    color: #888;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    padding: 1em;
+    border-top: 1px solid #bdbdbd;
+    height: 100px;
+}
+
+.recept_buttons{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 575px;
+    background-color: #202020;
+    box-sizing: border-box;
+    height: 90px;
+    border-top: 1px solid #bdbdbd;
+    align-items: center;
+}
+
+.recept_buttons_func{
+    width: 25%;
+    border-right: 1px solid #bdbdbd;
+    height: 79px;
+    width: 150px;
+}
+
+.recept_buttons_func_set svg{
+    width: 50%;
+    fill: #fff;
+    
+    
+}
+
+.recept_buttons_seal{
+    width: 25%;
+    border-right: 1px solid #bdbdbd;
+    height: 79px;
+    width: 150px;
+    position: center;
+}
+
+.recept_buttons_seal_print svg{
+    width: 50%;
+    fill: #fff;
+    
+}
+
+.recept_buttons_pay{
+    display: grid;
+    grid-template-rows: auto auto;
+    height: 79px;
+    width: 175px;
+    background: blue;
+    align-content: center;
+    font-size: 1.4em;
+}
+
+.recept_buttons_pay_sum{
+    font-family: medium;
+}
+
+.recept_buttons_pay_button{
+    font-size: .5em;
+    text-transform: uppercase;
+    opacity: .7;
+}
+
+
+/* Main_content */
+/* Search */
+
+.main_content{
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    box-sizing: border-box;
+    margin-left: 575px;
+    margin-top: -905px;
+}
+
+.main_content_search{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 2em;
+    background: #fff;
+    border-radius: 4px;
+    border: 1px solid #bdbdbd;
+    padding-left: 0.6em;
+    width: 1150px;
+}
+
+.main_content_filter{
+    margin-top: -32px;
+    margin-left: 1200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.main_content_filter_btn{
+    line-height: 2em;
+    border-radius: 4px;
+    text-align: center;
+    transition: .3s;
+    background-color: #333;
+    color: #fff;
+    padding: 0 1em;
+}
+
+
+
+
+
+
